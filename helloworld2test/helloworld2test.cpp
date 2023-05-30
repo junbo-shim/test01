@@ -3,9 +3,49 @@
 
 #include <iostream>
 
+void MyNewPrint(int number)
+{
+    printf("입력 값은 %d 입니다. \n", number);
+}
+
+int PlusTwoNumbers(int number1, int number2)
+{
+    printf("입력 값은 %d, %d 입니다.", number1, number2);
+    return number1 + number2;
+}
+
+int MultiplyThreeNumbers(int number1, int number2, int number3)
+{
+    printf("입력 값은 %d, %d, %d 입니다.", number1, number2, number3);
+    return number1 * number2 * number3;
+}
+
+
+
+
 int main()
 {
+    int number = 10;
+
     std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";
+
+    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";
+    std::cout << "Hello World!\n";
+
+    printf("Hello World!!\n");
+    printf("Hello World!!\n");
+    printf("Hello World!!\n");
+
+    printf("%d %d\n", number-2, number);
+
+    MyNewPrint(100);
+
+    printf("두 수의 합은 %d 입니다. \n\n", PlusTwoNumbers(5,7));
+
+    printf("세 수의 곱은 %d 입니다. \n\n\n", MultiplyThreeNumbers(3, 4, 5));
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
